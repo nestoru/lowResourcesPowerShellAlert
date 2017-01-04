@@ -8,7 +8,9 @@ Amazon Web Services (AWS) is not providing an out of the box solution for such s
 Get LowResourcesAlert.ps1 and put it into something like C:\scripts\LowResourcesAlert.ps1
 
 ## Configure it
-Self documented script. Look inside it
+Self documented script. Look inside it but for a start:
+1. Set your Thresholds. By default it is sending alerts based on any usage. Should you start at 85% ?
+2. Set your SMTP details. By default these are empty strings.
 
 ## Run it
 C:\>powershell -executionpolicy bypass -F C:\scripts\LowResourcesAlert.ps1
